@@ -16,3 +16,5 @@ tar -xjSf netkit-x.y.tar.bz2
 tar -xjSf netkit-filesystem-Fx.y.tar.bz2
 tar -xjSf netkit-kernel-Kx.y.tar.bz2
 ```
+
+Note: all the three packages must be uncompressed while staying in the same directory.
