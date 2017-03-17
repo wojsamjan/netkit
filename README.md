@@ -24,7 +24,8 @@ tar -xjSf netkit-kernel-Kx.y.tar.bz2
 export NETKIT_HOME=/home/yashimoto/Pulpit/netkit/netkit
 export MANPATH=:$NETKIT_HOME/man
 ```
-+ Note: It may also be useful to put these lines inside ```'.bashrc' located mostly in your /home or /etc directory```.
++ Note: To check your shell type : ```echo $0``` or ```echo $SHELL```.
++ Note: It may also be useful to put these lines inside ```'.bashrc'``` located mostly in your ```/home``` or ```/etc directory```.
 
 5. Update your PATH environment variable to include the path to the standard Netkit commands. Assuming Netkit is (still) installed into ```/home/yashimoto/Pulpit/netkit/netkit``` and that your shell is (still) ```bash```, you would type:
 ```
@@ -36,3 +37,5 @@ export PATH=$NETKIT_HOME/bin:$PATH
 ```
 ./check_configuration.sh
 ```
++ Note: If the script exits with success, then Netkit is ready for use.
++ Note: If needed install xterm typing: ```sudo apt-get install xterm```. To check your terminal type: ```echo $TERM```.
