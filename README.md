@@ -7,4 +7,4 @@ Installation and setting up netkit on a 64-bit linux machine
 sudo apt-get install libc6:i386 libncurses5:i386 libreadline6:i386
 ```
 
-2. Download: ```the Netkit "core", the Netkit filesystem, the Netkit kernel``` [Latest Stable Release] (http://wiki.netkit.org/index.php/Download_Official#Latest_Stable_Release)
+2. Download: ```the Netkit "core", the Netkit filesystem, the Netkit kernel``` [Latest Stable Release](http://wiki.netkit.org/index.php/Download_Official#Latest_Stable_Release)
