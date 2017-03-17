@@ -38,4 +38,8 @@ export PATH=$NETKIT_HOME/bin:$PATH
 + Note: If needed install xterm typing: ```sudo apt-get install xterm```. To check your terminal type: ```echo $TERM```.
 
 7. Test your installation typing:
-```vstart pc1``` starting a virtual machine
+```
+vstart pc1``` aaaa
+vlist``` aaa
+vhalt -r pc1``` aa
+```
