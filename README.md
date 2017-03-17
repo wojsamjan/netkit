@@ -7,7 +7,7 @@ Installation and setting up netkit on a 64-bit linux machine
 sudo apt-get install libc6:i386 libncurses5:i386 libreadline6:i386
 ```
 
-2. Download: ```the Netkit "core", the Netkit filesystem, the Netkit kernel``` [Latest Stable Release](http://wiki.netkit.org/index.php/Download_Official#Latest_Stable_Release)
+2. Download: ```the Netkit "core", the Netkit filesystem, the Netkit kernel``` [Latest Stable Release](http://wiki.netkit.org/index.php/Download_Official#Latest_Stable_Release).
 
 3. Then unpack them by using the following commands:
 
@@ -24,7 +24,7 @@ tar -xjSf netkit-kernel-Kx.y.tar.bz2
 export NETKIT_HOME=/home/yashimoto/Pulpit/netkit/netkit
 export MANPATH=:$NETKIT_HOME/man
 ```
-+ Note: It may also be useful to put these lines inside ```'.bashrc' located mostly in your /home or /etc directory or```.
++ Note: It may also be useful to put these lines inside ```'.bashrc' located mostly in your /home or /etc directory```.
 
 5. Update your PATH environment variable to include the path to the standard Netkit commands. Assuming Netkit is (still) installed into /home/yashimoto/Pulpit/netkit/netkit and that your shell is (still) bash, you would type:
 ```
