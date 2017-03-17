@@ -44,3 +44,9 @@ vlist
 vhalt -r pc1
 ```
 + Note: Commands meaning from top to bottom: start a simple virtual machine, list running virtual machines, stop the virtual machine.  
+
+8. If more information check:
++ [Download Official - Netkit Wiki](http://wiki.netkit.org/index.php/Download_Official)
++ [Installation instructions](http://wiki.netkit.org/download/netkit/INSTALL)
++ [FAQ - Netkit Wiki](http://wiki.netkit.org/index.php/FAQ#On_every_attempt_to_start_a_virtual_machine_I_get_the_error:_.22Can.27t_execvp_some_path.2Fkernel.2Fnetkit-kernel:_No_such_file_or_directory.22._But_the_kernel_file_is_there.21_What_is_going_wrong.3F)
++ [Installing Netkit for Emulating Linux Networks](https://xathrya.id/2015/12/05/installing-netkit-for-emulating-linux-networks/)
