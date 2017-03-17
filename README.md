@@ -8,3 +8,11 @@ sudo apt-get install libc6:i386 libncurses5:i386 libreadline6:i386
 ```
 
 2. Download: ```the Netkit "core", the Netkit filesystem, the Netkit kernel``` [Latest Stable Release](http://wiki.netkit.org/index.php/Download_Official#Latest_Stable_Release)
+
+3. Then unpack them by using the following commands:
+
+```
+  tar -xjSf netkit-x.y.tar.bz2
+  tar -xjSf netkit-filesystem-Fx.y.tar.bz2
+  tar -xjSf netkit-kernel-Kx.y.tar.bz2
+```
