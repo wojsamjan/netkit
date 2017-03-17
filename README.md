@@ -39,8 +39,8 @@ export PATH=$NETKIT_HOME/bin:$PATH
 
 7. Test your installation using the following commands:
 ```
-vstart pc1```
-vlist```
-vhalt -r pc1```
+vstart pc1
+vlist
+vhalt -r pc1
 ```
 + Note: Commands meaning from top to bottom: start a simple virtual machine, list running virtual machines, stop the virtual machine.  
