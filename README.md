@@ -19,4 +19,8 @@ tar -xjSf netkit-kernel-Kx.y.tar.bz2
 + Note: All the three packages must be uncompressed while staying in the same directory.
 + Note: Once Netkit has been unpacked, no root privileges are required to configure it and start working.
 
-4. Set the environment variable NETKIT_HOME to the name of the directory Netkit has been installed into.
+4. Set the environment variable NETKIT_HOME to the name of the directory Netkit has been installed into. Assuming that you have installed Netkit to /home/yashimoto/Pulpit/netkit/netkit and that your shell is bash, you would use the following commands:
+```
+export NETKIT_HOME=/home/yashimoto/Pulpit/netkit/netkit
+export MANPATH=:$NETKIT_HOME/man
+```
