@@ -37,9 +37,10 @@ export PATH=$NETKIT_HOME/bin:$PATH
 + Note: If the script exits with success, then Netkit is ready for use.
 + Note: If needed install xterm typing: ```sudo apt-get install xterm```. To check your terminal type: ```echo $TERM```.
 
-7. Test your installation typing:
+7. Test your installation using the following commands:
 ```
-vstart pc1``` aaaa
-vlist``` aaa
-vhalt -r pc1``` aa
+vstart pc1```
+vlist```
+vhalt -r pc1```
 ```
++ Note: Commands meaning from top to bottom: start a simple virtual machine, list running virtual machines, stop the virtual machine.  
