@@ -18,3 +18,5 @@ tar -xjSf netkit-kernel-Kx.y.tar.bz2
 ```
 + Note: All the three packages must be uncompressed while staying in the same directory.
 + Note: Once Netkit has been unpacked, no root privileges are required to configure it and start working.
+
+4. Set the environment variable NETKIT_HOME to the name of the directory Netkit has been installed into.
