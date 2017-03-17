@@ -31,3 +31,8 @@ export MANPATH=:$NETKIT_HOME/man
 export PATH=$NETKIT_HOME/bin:$PATH
 ```
 + Note: Again, put this line inside ```'.bashrc'```.
+
+6. In the Netkit directory run the ```'check_configuration.sh'``` script by typing:
+```
+./check_configuration.sh
+```
