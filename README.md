@@ -24,4 +24,10 @@ tar -xjSf netkit-kernel-Kx.y.tar.bz2
 export NETKIT_HOME=/home/yashimoto/Pulpit/netkit/netkit
 export MANPATH=:$NETKIT_HOME/man
 ```
-It may also be useful to put these lines inside ```'.bashrc'``` 
++ Note: It may also be useful to put these lines inside ```'.bashrc' located mostly in your /home or /etc directory or```.
+
+5. Update your PATH environment variable to include the path to the standard Netkit commands. Assuming Netkit is (still) installed into /home/yashimoto/Pulpit/netkit/netkit and that your shell is (still) bash, you would type:
+```
+export PATH=$NETKIT_HOME/bin:$PATH
+```
++ Note: Again, put this line inside ```'.bashrc'```.
