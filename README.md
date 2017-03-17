@@ -19,20 +19,20 @@ tar -xjSf netkit-kernel-Kx.y.tar.bz2
 + Note: All the three packages must be uncompressed while staying in the same directory.
 + Note: Once Netkit has been unpacked, no root privileges are required to configure it and start working.
 
-4. Set the environment variable NETKIT_HOME to the name of the directory Netkit has been installed into. Assuming that you have installed Netkit to /home/yashimoto/Pulpit/netkit/netkit and that your shell is bash, you would use the following commands:
+4. Set the environment variable NETKIT_HOME to the name of the directory Netkit has been installed into. Assuming that you have installed Netkit to ```/home/yashimoto/Pulpit/netkit/netkit``` and that your shell is ```bash```, you would use the following commands:
 ```
 export NETKIT_HOME=/home/yashimoto/Pulpit/netkit/netkit
 export MANPATH=:$NETKIT_HOME/man
 ```
 + Note: It may also be useful to put these lines inside ```'.bashrc' located mostly in your /home or /etc directory```.
 
-5. Update your PATH environment variable to include the path to the standard Netkit commands. Assuming Netkit is (still) installed into /home/yashimoto/Pulpit/netkit/netkit and that your shell is (still) bash, you would type:
+5. Update your PATH environment variable to include the path to the standard Netkit commands. Assuming Netkit is (still) installed into ```/home/yashimoto/Pulpit/netkit/netkit``` and that your shell is (still) ```bash```, you would type:
 ```
 export PATH=$NETKIT_HOME/bin:$PATH
 ```
 + Note: Again, put this line inside ```'.bashrc'```.
 
-6. In the Netkit directory run the ```'check_configuration.sh'``` script by typing:
+6. In the ```Netkit directory - /home/yashimoto/Pulpit/netkit/netkit``` run the ```'check_configuration.sh'``` script by typing:
 ```
 ./check_configuration.sh
 ```
