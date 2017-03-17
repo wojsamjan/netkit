@@ -12,7 +12,7 @@ sudo apt-get install libc6:i386 libncurses5:i386 libreadline6:i386
 3. Then unpack them by using the following commands:
 
 ```
-  tar -xjSf netkit-x.y.tar.bz2
-  tar -xjSf netkit-filesystem-Fx.y.tar.bz2
-  tar -xjSf netkit-kernel-Kx.y.tar.bz2
+tar -xjSf netkit-x.y.tar.bz2
+tar -xjSf netkit-filesystem-Fx.y.tar.bz2
+tar -xjSf netkit-kernel-Kx.y.tar.bz2
 ```
