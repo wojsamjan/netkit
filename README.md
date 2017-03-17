@@ -24,3 +24,4 @@ tar -xjSf netkit-kernel-Kx.y.tar.bz2
 export NETKIT_HOME=/home/yashimoto/Pulpit/netkit/netkit
 export MANPATH=:$NETKIT_HOME/man
 ```
+It may also be useful to put these lines inside ```'.bashrc'``` 
